@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHANTA | Checkout</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <div class="logo-container">
+
+        <div class="logo-circle">
+
+            <img
+                src="images/logo/SHANTA Logo.png"
+                alt="SHANTA Logo"
+            >
+
+        </div>
+
+        <div class="brand-text">
+
+            <h2>SHANTA</h2>
+
+            <span>
+                Made to shine with you
+            </span>
+
+        </div>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="login.html">
+                    Login
+                </a>
+            </li>
+
+            <li>
+                <a href="register.html">
+                    Register
+                </a>
+            </li>
+
+            <li>
+                <a href="products.html">
+                    Shop
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html#categories">
+                    Categories
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+
+            <li>
+                <a href="checkout.html">
+                    Checkout
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="nav-icons">
+
+        <button
+            id="theme-toggle"
+            class="theme-btn"
+        >
+            🌙
+        </button>
+
+        <a
+            href="cart.html"
+            class="cart-icon"
+        >
+            🛒 <span id="cart-count">0</span>
+        </a>
+
+    </div>
+
+</header>
+
+<!-- CHECKOUT -->
+
+<section class="checkout-page">
+
+    <div class="checkout-container">
+
+        <!-- FORM -->
+
+        <div class="checkout-form">
+
+            <h1>
+                Checkout
+            </h1>
+
+            <form id="checkout-form">
+
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder="Full Name"
+                >
+
+                <input
+                    type="text"
+                    id="phone"
+                    placeholder="Phone Number"
+                >
+
+                <input
+                    type="text"
+                    id="address"
+                    placeholder="Shipping Address"
+                >
+
+                <select id="payment-method">
+
+                    <option value="Cash">
+                        Cash On Delivery
+                    </option>
+
+                    <option value="Visa">
+                        Visa / Credit Card
+                    </option>
+
+                    <option value="Vodafone">
+                        Vodafone Cash
+                    </option>
+
+                </select>
+
+                <button
+                    type="submit"
+                    class="gold-btn checkout-btn"
+                >
+                    Place Order
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- SUMMARY -->
+
+        <div class="checkout-summary">
+
+            <h2>
+                Order Summary
+            </h2>
+
+            <div id="summary-items"></div>
+
+            <h3 id="summary-total">
+                Total: 0 EGP
+            </h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-logo">
+
+        <img
+            src="images/logo/SHANTA Logo.png"
+            alt="SHANTA"
+        >
+
+    </div>
+
+    <p>
+        Handmade luxury bags & accessories.
+    </p>
+
+</footer>
+
+<!-- ALERT -->
+
+<div
+    id="custom-alert"
+    class="custom-alert hidden"
+>
+
+    <p id="alert-message"></p>
+
+</div>
+
+<!-- JS -->
+
+<script src="js/main.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+
+</html>

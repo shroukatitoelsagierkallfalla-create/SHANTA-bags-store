@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SHANTA | Cart</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- CART CSS -->
+  <link rel="stylesheet" href="css/cart.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <div class="logo-container">
+
+      <div class="logo-circle">
+
+        <img
+          src="images/logo/SHANTA Logo.png"
+          alt="SHANTA Logo"
+        >
+
+      </div>
+
+      <div class="brand-text">
+
+        <h2>SHANTA</h2>
+
+        <span>
+          Made to shine with you
+        </span>
+
+      </div>
+
+    </div>
+
+    <nav id="nav-menu">
+
+      <ul>
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="login.html">
+            Login
+          </a>
+        </li>
+
+        <li>
+          <a href="register.html">
+            Register
+          </a>
+        </li>
+
+        <li>
+          <a href="products.html">
+            Shop
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#categories">
+            Categories
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact">
+            Contact
+          </a>
+        </li>
+
+        <li>
+          <a href="checkout.html">
+            Checkout
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <div class="nav-icons">
+
+      <button
+        id="theme-toggle"
+        class="theme-btn"
+      >
+        🌙
+      </button>
+
+      <a
+        href="cart.html"
+        class="cart-icon"
+      >
+        🛒 <span id="cart-count">0</span>
+      </a>
+
+    </div>
+
+  </header>
+
+  <!-- CART SECTION -->
+  <section class="cart-section">
+
+    <h1 class="section-title">
+      Shopping Cart
+    </h1>
+
+    <div id="cart-container">
+
+      <h2 id="total-price"></h2>
+
+      <!-- المنتجات هتظهر هنا بالـ JS -->
+
+    </div>
+
+    <button class="clear-btn">
+      Clear Cart
+    </button>
+
+    <a
+      href="checkout.html"
+      class="gold-btn"
+    >
+      Proceed To Checkout
+    </a>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+
+    <div class="footer-logo">
+
+      <img
+        src="images/logo/SHANTA Logo.png"
+        alt="SHANTA"
+      >
+
+    </div>
+
+    <p>
+      Handmade luxury bags & accessories.
+    </p>
+
+  </footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+
+  <div
+    id="custom-alert"
+    class="custom-alert hidden"
+  >
+    <p id="alert-message"></p>
+  </div>
+
+  <div
+    id="confirm-modal"
+    class="modal hidden"
+  >
+
+    <div class="modal-box">
+
+      <p>
+        Are you sure you want to clear the cart?
+      </p>
+
+      <div class="modal-actions">
+
+        <button id="confirm-yes">
+          Yes
+        </button>
+
+        <button id="confirm-no">
+          No
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

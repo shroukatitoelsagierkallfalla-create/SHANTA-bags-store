@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHANTA | Login</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <div class="logo-container">
+
+        <div class="logo-circle">
+            <img src="images\logo\SHANTA Logo.png" alt="SHANTA Logo">
+        </div>
+
+        <div class="brand-text">
+            <h2>SHANTA</h2>
+            <span>Made to shine with you</span>
+        </div>
+
+    </div>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="nav-icons">
+
+        <button id="theme-toggle" class="theme-btn">
+            🌙
+        </button>
+
+        <a href="cart.html" class="cart-icon">
+            🛒 <span id="cart-count">0</span>
+        </a>
+
+    </div>
+
+</header>
+
+<!-- LOGIN SECTION -->
+
+<section class="auth-page">
+
+    <div class="auth-box">
+
+        <h1>Welcome Back</h1>
+
+        <p class="auth-subtitle">
+            Login to continue shopping luxury collections ✨
+        </p>
+
+        <form id="login-form">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+            >
+
+            <button type="submit" class="gold-btn auth-btn">
+                Login
+            </button>
+
+        </form>
+
+        <p class="switch-auth">
+
+            Don’t have an account?
+
+            <a href="register.html">
+                Register
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-logo">
+
+        <img src="images\logo\SHANTA Logo.png" alt="SHANTA">
+
+    </div>
+
+    <p>
+        Handmade luxury bags & accessories.
+    </p>
+
+
+</footer>
+
+<!-- ALERT -->
+
+<div id="custom-alert" class="custom-alert hidden">
+    <p id="alert-message"></p>
+</div>
+
+<!-- JS -->
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>

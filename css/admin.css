@@ -1,0 +1,34 @@
+.admin-section {
+    padding: 140px 7%;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: var(--brown);
+}
+
+.card p {
+    font-size: 24px;
+    color: var(--gold);
+    font-weight: bold;
+}

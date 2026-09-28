@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SHANTA | Luxury Beaded Bags</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <div class="logo-container">
+
+      <div class="logo-circle">
+        <img
+          src="images\logo\SHANTA Logo.png"
+          alt="SHANTA Logo"
+        >
+      </div>
+
+      <div class="brand-text">
+        <h2>SHANTA</h2>
+        <span>Made to shine with you</span>
+      </div>
+
+    </div>
+
+    <nav>
+
+      <ul>
+
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="login.html">Login</a>
+        </li>
+
+        <li>
+          <a href="register.html">Register</a>
+        </li>
+
+        <li>
+          <a href="products.html">Shop</a>
+        </li>
+
+        <li>
+          <a href="index.html#categories">Categories</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+        <li>
+          <a href="checkout.html">Checkout</a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <div class="nav-icons">
+
+      <button
+        id="theme-toggle"
+        class="theme-btn"
+      >
+        🌙
+      </button>
+
+      <a
+        href="cart.html"
+        class="cart-icon"
+      >
+        🛒 <span id="cart-count">0</span>
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>
+        Made To Shine With You
+      </h1>
+
+      <p>
+        Luxury handmade beaded bags & elegant accessories crafted with love.
+      </p>
+
+      <a
+        href="products.html"
+        class="gold-btn"
+      >
+        Explore Collection
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- CATEGORIES -->
+  <section
+    class="categories"
+    id="categories"
+  >
+
+    <h2 class="section-title">
+      Our Categories
+    </h2>
+
+    <div class="category-grid">
+
+      <div class="category-card">
+
+        <a
+          href="products.html?category=Pearl"
+          class="category-card"
+        >
+
+          <img
+            src="images/products/Pearl Bags.jpg"
+            alt="Pearl Bags"
+          >
+
+          <h3>
+            Pearl Bags
+          </h3>
+
+        </a>
+
+      </div>
+
+
+      <div class="category-card">
+
+        <a
+          href="products.html?category=Crystal"
+          class="category-card"
+        >
+
+          <img
+            src="images/products/كرستال سواريه بيج.jpg"
+            alt="Crystal Bags"
+          >
+
+          <h3>
+            Crystal Bags
+          </h3>
+
+        </a>
+
+      </div>
+
+
+      <div class="category-card">
+
+        <a
+          href="products.html?category=Events"
+          class="category-card"
+        >
+
+          <img
+            src="images/products/Event Collection.jpg"
+            alt="Formal Bags"
+          >
+
+          <h3>
+            Event Collection
+          </h3>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="featured-products">
+
+    <h2 class="section-title">
+      Featured Products
+    </h2>
+
+    <div
+      class="products-container"
+      id="featured-products"
+    >
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact">
+
+    <div class="footer-logo">
+
+      <img
+        src="images\logo\SHANTA Logo.png"
+        alt="SHANTA"
+      > 
+
+    </div>
+
+    <p>
+      Handmade luxury bags & accessories.
+    </p>
+
+  </footer>
+
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+  <div
+    id="custom-alert"
+    class="custom-alert hidden"
+  >
+    <p id="alert-message"></p>
+  </div>
+
+</body>
+
+</html>

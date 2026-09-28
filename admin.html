@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SHANTA | Admin Dashboard</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+  <div class="logo-container">
+
+    <div class="logo-circle">
+
+      <img
+        src="images/logo/SHANTA Logo.png"
+        alt="SHANTA Logo"
+      >
+
+    </div>
+
+    <div class="brand-text">
+
+      <h2>SHANTA Admin</h2>
+
+      <span>
+        Dashboard
+      </span>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- DASHBOARD -->
+<section class="admin-section">
+
+  <h1 class="section-title">
+    Dashboard
+  </h1>
+
+  <div class="stats">
+
+    <div class="card">
+
+      <h2>
+        Total Orders
+      </h2>
+
+      <p id="total-orders">
+        0
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>
+        Total Revenue
+      </h2>
+
+      <p id="total-revenue">
+        0 EGP
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>
+        Products Sold
+      </h2>
+
+      <p id="total-products">
+        0
+      </p>
+
+    </div>
+
+  </div>
+
+  <h2 class="section-title">
+    Recent Orders
+  </h2>
+
+  <div id="orders-container"></div>
+
+</section>
+
+<script src="js/admin.js"></script>
+
+</body>
+
+</html>
